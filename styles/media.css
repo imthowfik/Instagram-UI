@@ -1,0 +1,156 @@
+@media  all and (max-width:1288px){
+    .right-suggestions{
+        display: none;
+    }
+    .menu div{
+        display: none;
+    }
+    .side-menus .side-links span{
+        display: none;
+    }
+    .logo img {
+        display: none;
+    }
+    .fa-instagram{
+        display: block;
+    }
+    .story-row{
+        left: 100px;
+        width: 300px;
+        grid-auto-columns: 8%;
+    }
+    .post-container{
+        width: 300px;
+        left: 100px;
+        top: 20px;
+    }
+
+    
+}
+@media  all and (max-width:650px){
+    .post-container img{
+        left: 100px;
+        top: 20px;
+        width: 300px;
+    }
+    .user-info img {
+        width: 25px;
+    }
+    .user-info{
+        width: 300px;
+    }
+    .user-name-caption > p{
+        width: 300px;
+    }
+    .post-actions {
+        display: grid;
+        grid-template-columns: 30px 30px 220px 30px;
+    }
+    .user-info{
+        grid-template-columns: 30px 250px  30px;
+    }
+    .side-links:hover{
+        background-color: #000000;
+        border-radius: 10px;
+    }
+    .menu:hover{
+        background-color: #000000;
+        border-radius: 10px;
+    }
+    .side-menus{
+        width: 50px;
+    }
+    
+
+}
+
+@media  all and (max-width:650px){
+    .explore-container{
+        padding-top: 30px;
+        padding-left: 50px;
+        margin-left: 50px;
+        display: grid;
+        grid-template-columns: 147px 147px ;
+        grid-template-rows: 147px 147px;
+        row-gap: 5px;
+        column-gap: 5px;
+        
+    }
+    .explore-container2{
+        padding-top: 5px;
+        padding-left: 50px;
+        margin-left: 50px;
+        display: grid;
+        grid-template-columns: 147px 147px;
+        grid-template-rows: 147px 147px;
+        row-gap: 5px;
+        column-gap: 5px;
+    }
+    .box1{
+        height: 147px;
+        width: 147px;
+    }
+    .box2{
+        height: 147px;
+        width: 147px;
+    }
+    .box3{
+        height: 147px;
+        width: 147px;
+    }
+    .box4{
+        height: 147px;;
+        width: 147px;
+    }
+    .box5 {
+        width: 147px;
+        height:147px;
+    }
+    .profile-row-info{
+        font-size: 1rem;
+        padding-top: 30px;
+        margin-left: 100px;
+        width: 200px;
+        height: 100px;
+    }
+    .follow-button,
+    .message-button{
+   
+        display: none;
+    }
+    
+    .profile-row-info img{
+        width: 70px;
+        margin-left: 0px;
+        width: 150px;
+    }
+    .post-image2 img{
+        width: 150px;
+    }
+    .a-name{
+        font-size: .6rem;
+        margin-top: 50px;
+        width: 200px;
+    }
+    .second{
+        font-size: 1rem;
+        margin-left: 0px;
+        margin-top: -10px;
+     }
+     .row li {
+        font-size: .6rem;
+        margin-right: 10px;
+        display: inline-block;
+     }
+     .row{
+        margin-right: 20px;
+     }
+    .post-container div{
+        font-size: .7rem;
+    }
+    .post-image2 {
+        margin-left: 100px;
+        display: inline-block;
+    } 
+    
+}

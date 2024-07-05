@@ -1,0 +1,109 @@
+.profile-row-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -100px;
+    border-bottom: 1px solid  rgb(31, 31, 31);
+}
+
+.profile-actions{
+    display: flex;
+    margin-top: -100px;
+    display: flex;
+    align-items: center;
+}
+.name{
+    margin-right: 10px;
+}
+button{
+    margin-right: 5px;
+    border: none;
+}
+.follow-button{
+    background-color:#363636;
+    color: white;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    
+}
+.message-button{
+    background-color: #363636;
+    color: white;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+.follow-button:hover,
+.contact-btn:hover,
+.message-button:hover{
+    background-color:#202020 ;
+}
+.contact-btn{
+    background: none;
+    color: white;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+.more-btn{
+    background-color: black;
+    color: white;
+    padding-left: 5px;
+    font-size: 1rem;
+}
+.follow-button,
+.message-button,
+.contact-btn,
+.more-btn{
+    cursor: pointer;
+}
+.row li{
+    list-style: none;
+    margin-right: 30px;
+}
+
+.second{
+    display: flex;
+    position: absolute;
+}
+.row{
+   display: flex;
+   position: absolute;
+   justify-content:flex-start;
+   width: 400px;
+   margin-top: 20px;
+   margin-left: -80px;
+}
+.a-name{
+    margin-top: 60px;
+    margin-left: -80px;
+}
+.post-container{
+    display: flex;
+    justify-content: center;
+    /* margin-top: 15px; */
+}
+.post-icon{
+    margin-right: 30px;
+}
+.tag-icon:hover,
+.tag-icon:active,
+.post-icon:hover,
+.post-icon:active{
+    border-top: 1px solid rgb(255, 255, 255);
+}
+.tag-icon:active{
+    border-top: 1px solid rgb(255, 255, 255);
+}
+.post-image2{
+    margin-left: 300px;
+    width: 308px;
+}
+.post-image2 img{
+    width: 308px;
+
+}

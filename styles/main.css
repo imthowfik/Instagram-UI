@@ -1,0 +1,263 @@
+/* .main-content-title{
+    justify-content: center;
+    display: flex;
+    width: 1100px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: -90px;
+}
+
+.profile-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+    
+}
+.profile-info{
+    margin-left: 5px;
+    width: 300px;
+    
+}
+.profile-icon img{
+    border-radius: 1fr 1fr;
+    width: 1fr 1fr;
+    cursor: pointer;
+}
+.user-info{
+    font-size: .670rem;
+    color: lightgray;
+}
+.follow-btn {
+    margin-left: 200px;
+    /* background-color:rgb(31, 159, 245);
+    color: white;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+}
+.follow-btn:hover{
+    background-color: #1877F2;
+} */ 
+ /* <i class="fa-solid fa-table-cells"></i>
+ <i class="fa-regular fa-user"></i>
+ <i class="fa-solid fa-thumbtack"></i>*/
+
+
+/* <i class="fa-solid fa-circle-arrow-right"></i>
+<i class="fa-solid fa-circle-arrow-left"></i> 
+<i class="fa-solid fa-angle-right"></i>*/
+ 
+.story img{
+    background: linear-gradient(45deg, #f9ce34 0%, #ee2a7b 25%,#6228d7 );
+    padding: 2px;
+    
+}
+
+.story-row{
+    width: 630px;
+    height: 101px;
+    column-gap: 43px;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 4%;
+    overflow-x: scroll; 
+    overscroll-behavior-inline:contain;
+    position: relative;
+    left: 300px;
+    cursor: pointer;
+}
+.story-row::-webkit-scrollbar{
+    display: none;
+}
+ .story img{
+    width: 56px;
+    border-radius: 50px;
+ }
+ .user-name{
+    font-size: .7rem;
+    width: 60px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+ }
+ .arrow-import{
+    position: relative;
+ }
+ #nextBtn,
+ #backBtn{
+    display: none;
+ }
+
+/* ?feeed page */
+
+:root{
+    --comment-icon:<i class="fa-regular fa-comment fa-flip-horizontal"></i>;
+    --paper-plane:<i class="fa-regular fa-paper-plane"></i>;
+    --save-icon:<i class="fa-regular fa-bookmark"></i>;
+    --save-icon-after:<i class="fa-regular fa-bookmark"></i>;
+    --user-tag:<i class="fa-solid fa-circle-user"></i>;
+}
+.post-container::-webkit-scrollbar{
+    display: none;
+}
+.post-container {
+    height: 810px;
+    width: 470px;
+    position: relative;
+    left: 350px;
+    top: 40px;
+    background-color: black;
+    
+
+}
+.like-button {
+    background: none;
+    border: none;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.like-icon {
+    font-size: 24px;
+    margin-right: 8px;
+    color: rgb(235, 231, 231);
+}
+
+.like-button.liked .like-icon {
+    color: red;
+}
+.user-info{
+    width: 470px;
+    height: 46px;
+    display: grid;
+    margin-top: 20px;
+    grid-template-columns: 30px 1fr  30px;
+}
+.user-info img{
+    width: 24px;
+    height: 24px;
+    border-radius: 50px;
+   
+    
+ 
+}
+.post-image img{
+    width: 470px;
+  ;
+    border-radius: 3px;
+}
+.post-actions {
+    display: grid;
+    grid-template-columns: 2rem 2rem 2fr 2rem;
+}
+.more-info,
+#save,
+#share,
+#cmnt,
+#like{
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: rgb(235, 231, 231);
+}
+
+.liker-name,
+.default-txt,
+.likes i{
+    margin-top: 5px;
+    display: inline-block;
+ 
+}
+/* .right-suggestions {
+    position: absolute;
+    width: 380px;
+    height: 650px;
+    right: 0;
+    top: 0;
+} */
+.suggestions {
+    width:319px;
+    height: 550px;
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    background-color: black;
+}
+.user-options{
+    display: grid;
+    grid-template-columns: 50px 1fr 50px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+    
+}
+.user-pic img{
+    width: 40px;
+    border-radius: 25px;
+    
+}
+.user-name-caption p{
+  display: inline;
+  font-weight: lighter;
+}
+.follow-btn,
+.switch-btn {
+    border: none;
+    background: none;
+    color: #007CCD;
+}
+.user-name4{
+    color: #979797;
+}
+.user-name3{
+    margin-left: 6px;
+}
+.title2{
+    display: grid;
+    grid-template-columns: 1fr 53px;
+}
+.title2 {
+    color: #979797;
+}
+.see-all{
+    border: none;
+    background: none;
+    color: white;
+}
+
+.suggested-users{
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: 50px 1fr 50px;
+    align-items: center;
+    cursor: pointer;
+}
+.user-options,
+.switch-btn,
+.see-all,
+.follow-btn{
+    cursor: pointer;
+}
+.default-txt{
+    font-weight: lighter;
+}
+
+/* explore */
+/* ? box1 w+h 317 *4 top 2 bottom 2  */
+/* ? right video w-317 h-640 */
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0); /* Semi-transparent black overlay */
+    pointer-events: none; /* Allows interaction with elements beneath the overlay */
+    z-index: 9999; /* Ensure the overlay is on top of everything */
+}
